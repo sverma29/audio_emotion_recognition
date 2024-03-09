@@ -1,0 +1,5 @@
+soundfile==0.12.1
+speechbrain==1.0.0
+streamlit==1.30.0
+torch==2.2.1
+transformers==4.38.2
