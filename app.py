@@ -12,7 +12,7 @@ st.title("Audio Sentiment Analysis")
 st.write("[ENGRO](https://engro.io/)")
 
 st.sidebar.title("Description")
-st.sidebar.write("The tool allows one to upload an audio file and perform sentiment analysis")
+st.sidebar.write("The tool allows one to upload an audio file and perform sentiment analysis. The model uses both the frequency and transcription for audio classification.")
 
 st.sidebar.header("Upload Audio")
 audio_file = st.sidebar.file_uploader("Browse", type=["wav"])
