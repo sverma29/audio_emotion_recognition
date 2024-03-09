@@ -36,7 +36,7 @@ def main():
         tmp.write(audio_file.getvalue())
         tmp_path = tmp.name  # get the path of the saved temp file
       
-        sentiment_label = perform_sentiment_analysis(tmp_path)
+        sentiment_label = perform_sentiment_analysis(audio_file)
         st.header("Sentiment Analysis")
         negative_icon = "👎"
         neutral_icon = "😐"
