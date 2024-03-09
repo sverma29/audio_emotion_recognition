@@ -8,7 +8,7 @@ import speechbrain
 
 st.set_page_config(layout="wide")
 
-st.title("Audio Recording Analysis")
+st.title("Audio Emotion Analysis")
 st.write("[ENGRO](https://engro.io/)")
 
 st.sidebar.title("Description")
@@ -36,7 +36,7 @@ def main():
         tmp.write(audio_file.getvalue())
         tmp_path = tmp.name  # get the path of the saved temp file
       
-        sentiment_label = perform_sentiment_analysis(audio_file)
+        sentiment_label = perform_sentiment_analysis(tmp_path)
         st.header("Sentiment Analysis")
         negative_icon = "👎"
         neutral_icon = "😐"
