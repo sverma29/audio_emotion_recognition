@@ -8,7 +8,7 @@ import speechbrain
 
 st.set_page_config(layout="wide")
 
-st.title("Audio Emotion Analysis")
+st.title("Audio Sentiment Analysis")
 st.write("[ENGRO](https://engro.io/)")
 
 st.sidebar.title("Description")
